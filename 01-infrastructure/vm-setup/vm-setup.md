@@ -5,8 +5,8 @@
 
  Vmnet3 is an isolated attack network that solely contains a Kali Linux instance to simulate malicous activity from an external network.
 
- ![Network Topology](01-infrastructure/soc_lab_network_topology.png)
- 
+ ![Network Topology](soc_lab_network_topology.png)
+
  ## VM Specifications
  | Name | VM | Disk | RAM | 
  |---|---|---|---|
