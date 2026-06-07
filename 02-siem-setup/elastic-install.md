@@ -40,7 +40,7 @@ Note: Sections of the environment setup required the machines to have internet a
 
     - Once Elasticsearch was installed, elasticsearch.yml was edited to set the following fields:
 
-        - network.host: 192.168.56.132
+        - network.host: 10.10.1.132
         - http.port: 9200
         - cluster.name: soc-homelab
         - node.name: siem-node-1
@@ -62,8 +62,8 @@ Note: Sections of the environment setup required the machines to have internet a
     - After installation, the following fields were set in kibana.yml:
 
         - server.port: 5601
-        - server.host: "192.168.56.132"
-        - elasticsearch.hosts: ["https://192.168.56.132:9200"]
+        - server.host: "10.10.1.132"
+        - elasticsearch.hosts: ["https://10.10.1.132:9200"]
 
         ![kibana-confirm](kibana-confirm.png)
 
