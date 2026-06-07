@@ -5,7 +5,7 @@
 
  Vmnet3 is an isolated attack network that solely contains a Kali Linux instance to simulate malicous activity from an external network.
 
- ![Network Topology](topology.png)
+ ![Network Topology](topology-2.png)
 
  ## VM Specifications
  | Name | VM | Disk | RAM | 
@@ -19,9 +19,9 @@
  ## IP Table
  | Name | Network | Address |
  |---|---|---|
- | SIEM | vmnet2 (host-only) | 192.168.56.132 |
- | Windows-EP | vmnet2 (host-only) | 192.168.56.130 |
- | Linux-EP | vmnet2 (host-only) | 192.168.56.129 |
- | MSP2 | vmnet2 (host-only) | 192.168.56.131 |
- | Kali | vmnet2 (host-only) | 192.168.56.128 |
- | Kali | vmnet3 (host-only) | 192.168.57.128 |
+ | SIEM | vmnet2 (host-only) | 10.10.1.132 |
+ | Windows-EP | vmnet2 (host-only) | 10.10.1.130 |
+ | Linux-EP | vmnet2 (host-only) | 10.10.1.129 |
+ | MSP2 | vmnet2 (host-only) | 10.10.1.131 |
+ | Kali | vmnet2 (host-only) | 10.10.1.128 |
+ | Kali | vmnet3 (host-only) | 10.10.2.128 |
